@@ -15,6 +15,7 @@
     height: 600px;
     background-color: white;
     position: relative;
+    overflow: hidden;
 }
 
 .button-box{
@@ -36,7 +37,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 110px;
+    width: 50%;
     height: 100%;
     background: linear-gradient(to right, #ff105f, #ffad06);
     border-radius: 30px;
