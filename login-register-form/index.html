@@ -12,7 +12,8 @@
     <div class= "background">
         <div class= "form-box">
             <div class= "button-box">
-                <button type= "button> class= "toggle-btn">Log In</button>
+                <div class="btn"></div>
+                <button type= "button" class= "toggle-btn">Log In</button>
                 <button type= "button" class= "toggle-btn">Register</button>
             </div>
             <div class= "social-icons">
@@ -20,13 +21,20 @@
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-twitter"></i>
             </div>
-            <form class= "input-group">
-                <input type="text" required placeholder="Username">
-                <input type= "password" required placeholder="password">
+            <form id= "login" class= "input-group">
+                <input class="input-field" type="text" required placeholder="Username">
+                <input class= "input-field" type= "password" required placeholder="password">
                 <input type= "checkbox" class= "check-box"> <span>Remember Password</span>
-                <input type= "submit" class= "submit" value= "Log In"> 
+                <input type= "submit" class= "submit-btn" value= "Log In"> 
             </form>
-            
+            <form id= "register" class= "input-group">
+                <input class="input-field" type="text" required placeholder="Username">
+                <input class="input-field" type="email" required placeholder="Email">
+                <input class= "input-field" type= "password" required placeholder="password">
+                <input class= "input-field" type= "password" required placeholder="Confirm Password">
+                <input type= "checkbox" class= "check-box"> <span>I agree with term and conditions</span>
+                <input type= "submit" class= "submit-btn" value= "Register"> 
+            </form>
         </div>
     </div>
     <script src= "script.js"></script>
